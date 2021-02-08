@@ -95,4 +95,5 @@ def scrape():
         "hemispheres" :  hemisphere_image_urls
     }
     
+    browser.quit()
     return data
